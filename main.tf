@@ -20,3 +20,5 @@ resource "local_file" "welcome_note" {
 output "file_location" {
   value = local_file.welcome_note.filename
 }
+
+#this is testing
